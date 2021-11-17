@@ -1,6 +1,4 @@
 # node-plataformasuc
-Página web de las Plataformas UC
-
 Esqueleto de la página web de las plataformas UC, programado en el framework [NodeJS](https://nodejs.org).
 
 ## Software requirements ##
@@ -8,18 +6,18 @@ Esqueleto de la página web de las plataformas UC, programado en el framework [N
 Para iniciar el servicio web, deben instalarse los siguientes módulos y software. Se recomienda utilizar el administrador de paquetes `conda` porque es más fácil instalar los módulos.
 
 * Node JS. Además, otros módulos de `Node` son requeridos (ver Instalación). Instalación con conda:
-
+    ```
     conda create -n nodejs_env nodejs
     conda activate nodejs_env
-
+    ```
 ## Instalación del servicio web ##
 
 `Abi2ConsensusByRef` takes as input several sanger files (`.ab1`) or a single folder where it can find the sanger files:
-
-    git clone 
-    cd node-plataformasuc
-    npm install
-
+```
+git clone 
+cd node-plataformasuc
+npm install
+```
 ## Execution ##
 
 Para lanzar el servicio:
