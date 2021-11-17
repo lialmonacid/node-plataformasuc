@@ -12,23 +12,27 @@ Para iniciar el servicio web, deben instalarse los siguientes módulos y softwar
     ```
 ## Instalación del servicio web ##
 
-`Abi2ConsensusByRef` takes as input several sanger files (`.ab1`) or a single folder where it can find the sanger files:
-```
-git clone 
-cd node-plataformasuc
-npm install
-```
-## Execution ##
+Luego de haber instalado NodeJS y cargado el ambiente (`nodejs_env`) se deben seguir los siguientes pasos:
+1. Clonar este repositorio.
+    ```
+    git clone https://github.com/lialmonacid/node-plataformasuc.git 
+    ```
+2. Entrar al directorio.
+    ```
+    cd node-plataformasuc
+    ```
+3. Instalar los modulos adicionales de `Node` necesarios para correr la aplicación.
+    ```
+    npm install
+    ```
+## Iniciar el servicio web ##
 
-Para lanzar el servicio:
+1. Para lanzar el servicio:
+    ```
     npm run dev
+    ```
 
-Para vizualizar en la en navegador:
+2. Para vizualizar en el navegador. El puerto configurado por defecto es el `3300` (src/index.js):
+    ```
     http://localhost:3300
-
-* `multiseq_trim.fasta` contain all the processed input sequences together with the reference sequences. This file is use to build the MSA. Sequences are not aligned.
-* `multiseq_trim.msa.fasta` is the resulting MSA after align the sequences against each other with Clustal Omega. 
-* multiseq_trim.clustalo.log is log file after running Clustal Omega.
-* `Consensus.fasta` is the FASTA file that has the MSA called consensus. It contain a single sequence.
-* `Consensus.msa.fasta` is the MSA used to call the consensus sequence. It contain all aligned input sequences plus the called consensus in an aligned FASTA format.
-* `*.pr.fasta` multiple FASTA files containg each input sequence after trimmming and reorienting them. There are as many files as input sequences.
+    ```
