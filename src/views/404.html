@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%= title %>
+    </title>
+
+    <%- include("partials/head.html") %>
+
+</head>
+
+<body>
+    <%- include("partials/navigation.html") %>
+        <div class="container my-60">
+            <div class="row justify-content-center">
+                <div class="col-lg-9">
+                    <div id="error-404" class="uc-card card-bg--gray">
+                        <div class="uc-card_body--xl">
+                            <div class="uc-subtitle">Error 404</div>
+                            <div class="h1 mb-24">Lo sentimos, no pudimos llevarte a la página que querías.</div>
+                            <p>La página que estás buscando ha sido modificada, borrada o no existe. Te sugerimos
+                                usar nuestro buscador para seguir navegando</p> <a href="/"
+                                class="uc-link text-weight--medium">
+                                Volver a la página de inicio <i class="uc-icon">keyboard_arrow_right</i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <%- include("partials/footer.html") %>
+
+</body>
+
+</html>

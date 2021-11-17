@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%= title %>
+    </title>
+
+    <%- include("partials/head.html") %>
+
+</head>
+
+<body>
+    <%- include("partials/navigation.html") %>
+    <div class="container mt-40">
+        <header class="entry-header">
+            <h1 class="entry-title">Unidades de Servicios</h1>
+        </header>
+        <span class="uc-heading-decoration"></span><br><br>
+        <p class="p-text--condensed p-color--gray" align="justify">La Investigación es el alma de la FCB-UC es por
+            esto
+            que se crea “La Plataforma” que alberga seis unidades de servicios, esperando dar cumplimiento a las
+            actividades de Investigación, visibilidad y eficiencia.<br>
+
+        </p>
+        <div class="row">
+            <div class="col-md-4 mb-20">
+                <div class="uc-card card-bg--image card-gradient--bottom-blue"
+                    style="background-image:url('https://biologia.uc.cl/media/2020/01/citometria.jpg'); max-width: 385px">
+                    <a href="/ucf" class="uc-tag tag-fixed">UCF</a>
+                    <div class="uc-card_body">
+                        <div class="uc-card card-bg--white mt-auto">
+                            <div class="uc-card_body">
+                                <h3>Citometría de Flujo</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-20">
+                <div class="uc-card card-bg--image card-gradient--bottom-blue"
+                    style="background-image:url('https://biologia.uc.cl/media/2020/01/Plataforma_vegetal.jpg'); max-width: 385px">
+                    <a href="/uev" class="uc-tag tag-fixed">UEV</a>
+                    <div class="uc-card_body">
+                        <div class="uc-card card-bg--white mt-auto">
+                            <div class="uc-card_body">
+                                <h3>Experimentación Vegetal</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-20">
+                <div class="uc-card card-bg--image card-gradient--bottom-blue"
+                    style="background-image:url('https://biologia.uc.cl/media/2020/01/secuenciacion.jpg'); max-width: 385px">
+                    <a href="/omics" class="uc-tag tag-fixed">OMICS</a>
+                    <div class="uc-card_body">
+                        <div class="uc-card card-bg--white mt-auto">
+                            <div class="uc-card_body">
+                                <h3>Secuenciación y Tecnologías Ómicas</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-20">
+                <div class="uc-card card-bg--image card-gradient--bottom-blue"
+                    style="background-image:url('https://biologia.uc.cl/media/2020/01/UMA.jpg'); max-width: 385px">
+                    <a href="/uma" class="uc-tag tag-fixed">UMA</a>
+                    <div class="uc-card_body">
+                        <div class="uc-card card-bg--white mt-auto">
+                            <div class="uc-card_body">
+                                <h3>Microscopía Avanzada</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-20">
+                <div class="uc-card card-bg--image card-gradient--bottom-blue"
+                    style="background-image:url('https://biologia.uc.cl/media/2020/01/bioinformatica.jpg'); max-width: 385px">
+                    <a href="/ubbc" class="uc-tag tag-fixed">UBBC</a>
+                    <div class="uc-card_body">
+                        <div class="uc-card card-bg--white mt-auto">
+                            <div class="uc-card_body">
+                                <h3>Bioinformática y Biología Computacional</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include("partials/footer.html") %>
+
+</body>
+
+</html>

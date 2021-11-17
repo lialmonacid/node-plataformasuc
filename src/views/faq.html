@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <%= title %>
+    </title>
+
+    <%- include("partials/head.html") %>
+
+</head>
+
+<body>
+    <%- include("partials/navigation.html") %>
+        <div class="container mt-40">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ol class="uc-breadcrumb mb-32">
+                        <li class="uc-breadcrumb_item">
+                            <a href="/">Inicio</a>
+                            <i class="uc-icon">keyboard_arrow_right</i>
+                        </li>
+                        <li class="uc-breadcrumb_item current">Preguntas Frecuentes</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mb-32" id="tp">
+                <h2>Tópicos Generales</h2>
+                <span class="uc-heading-decoration"></span>
+            </div>          
+            <div class="row">
+                <div class="col-lg-7 offset-lg-1 content">
+                    <div class="uc-accordion" data-accordion>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
+                                <h4>¿Pregunta 1?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample01">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
+                                <h4>¿Pregunta 2?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample02">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
+                                <h4>¿Pregunta 3?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample03">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
+                                <h4>¿Pregunta 4?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample04">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+
+                <div class="col-lg-3 offset-lg-1 right">
+                    <div class="moduletable-inforel uc-card ">
+
+
+                        <div class="uc-card_body">
+                            <h6>Sección</h6>
+                            <div class="uc-text-divider divider-secondary my-20">&nbsp;</div>
+                            <p>
+                                <a class="uc-btn btn-listed" href="/faq#tp">Tópicos Generales<i class="uc-icon icon-small">keyboard_arrow_right</i></a> 
+                                <a class="uc-btn btn-listed" href="/faq#ucf">Citometría de Flujo<i class="uc-icon icon-small">keyboard_arrow_right</i></a>
+                                <a class="uc-btn btn-listed" href="/faq#uev">Experimentación Vegetal<i class="uc-icon icon-small">keyboard_arrow_right</i></a>
+                                <a class="uc-btn btn-listed" href="/faq#omics">Secuenciación y Tecnologías Ómicas<i class="uc-icon icon-small">keyboard_arrow_right</i></a>
+                                <a class="uc-btn btn-listed" href="/faq#uma">Microscopía Avanzada<i class="uc-icon icon-small">keyboard_arrow_right</i></a>
+                                <a class="uc-btn btn-listed" href="/faq#ubbc">Bioinformática y Biología Computacional<i class="uc-icon icon-small">keyboard_arrow_right</i></a>                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mb-32" id="ucf">
+                <h2>Citometría de Flujo</h2>
+                <span class="uc-heading-decoration"></span>
+            </div> 
+            <div class="row">
+                <div class="col-lg-7 offset-lg-1 content">
+                    <div class="uc-accordion" data-accordion>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
+                                <h4>¿Solo se pueden medir muestras con anticuerpos fluorescentes?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample01">
+                                <div class="uc-card_body">
+                                    <p>La citometría de flujo permite la medición de cualquier molécula fluorescente, es decir, no solo se pueden hacer mediciones con anticuerpos fluorescentes, también se puede medir moléculas fluorescentes, sondas fluorescentes, diferentes colorantes o componentes fluorescentes. Todo depende de los láseres y detectores con los cuales cuenten los citómetros.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
+                                <h4>¿Se puede medir la expresión de proteínas fluorescentes, por ejemplo GFP?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample02">
+                                <div class="uc-card_body">
+                                    <p>En efecto, los equipos de citometría son capaces de medir diferentes proteínas fluorescentes, esto es debido a que estas proteínas son excitadas a cierta longitud de onda y emiten a otra longitud que es captada por los detectores de los citómetros. De esta forma, dependiendo de la longitud de onda a la cual se excita y emite la proteína esta puede ser detectada por el citómetro.</p>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>                   
+                </div>             
+            </div>
+            <div class="d-flex align-items-center my-32" id="uev">
+                <h2>Experimentación Vegetal</h2>
+                <span class="uc-heading-decoration"></span>
+            </div> 
+            <div class="row">
+                <div class="col-lg-7 offset-lg-1 content">
+                    <div class="uc-accordion" data-accordion>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
+                                <h4>¿Pregunta 1?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample01">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
+                                <h4>¿Pregunta 2?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample02">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
+                                <h4>¿Pregunta 3?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample03">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
+                                <h4>¿Pregunta 4?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample04">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>             
+            </div>
+            <div class="d-flex align-items-center my-32" id="omics">
+                <h2>Secuenciación y Tecnologías Ómicas</h2>
+                <span class="uc-heading-decoration"></span>
+            </div> 
+            <div class="row">
+                <div class="col-lg-7 offset-lg-1 content">
+                    <div class="uc-accordion" data-accordion>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
+                                <h4>¿Pregunta 1?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample01">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
+                                <h4>¿Pregunta 2?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample02">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
+                                <h4>¿Pregunta 3?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample03">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
+                                <h4>¿Pregunta 4?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample04">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>             
+            </div>
+            <div class="d-flex align-items-center my-32" id="uma">
+                <h2>Microscopía Avanzada</h2>
+                <span class="uc-heading-decoration"></span>
+            </div> 
+            <div class="row">
+                <div class="col-lg-7 offset-lg-1 content">
+                    <div class="uc-accordion" data-accordion>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
+                                <h4>¿Cómo puedo reservar?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample01">
+                                <div class="uc-card_body">
+                                    <p>Para reservar, es necesario que primero se encuentre registrado en nuestra base de datos, para ello debe contactarse con la unidad de microcopia respectiva (UMA-BIO o UMA-MED).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
+                                <h4>¿Tiene algún costo el uso de los equipos o servicios?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample02">
+                                <div class="uc-card_body">
+                                    <p>Si, el cobro del uso de los equipos es necesario para financiar mantenciones, reparaciones, reemplazo de lámparas, upgrades e incluso la compra de nuevo equipamiento.</p>
+                                    <p>Junto con lo anterior, el cobro por el uso de los equipos permite concientizar a los usuarios del cuidado que requieren estos sistemas, así como expandir el uso de los equipos a usuarios externos a la univerdad.</p>
+                                    <p>Los valores de cobro de nuestros equipos se encuentran elaborados en base a las siguientes variables:</p>
+                                    <p>
+                                        <ul>
+                                            <li>Valor inicial del equipo.</li>
+                                            <li>Valor de mantención anual del equipos y anexos.</li>
+                                            <li>Valor de consumibles (lámparas, aceite de inmersión, papel).</li>
+                                            <li>Gastos en infraestructura.</li>
+                                            <li>Gastos en asistencia técnica y personal.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
+                                <h4>¿Cómo puedo conocer las tarifas del uso de equipos y servicios?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample03">
+                                <div class="uc-card_body">
+                                    <p>Te debes contactar con la unidad de microscopía respectiva a tu equipo o servicio e interés (UMA-BIO o UMA-MED).</p>
+                                    <p>Contamos con tarifas específicas para usuarios miembros de la comunidad UC, usuarios externos de otras universidades y usuarios que trabajan para empresas y otras instituciones con fines de lucro.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
+                                <h4>No estoy seguro de qué equipo(s) es el mejor para mis necesidades, ¿Me pueden ayudar en la UMA?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample04">
+                                <div class="uc-card_body">
+                                    <p>Si!, estamos para ayudarte. Completa nuestro formulario de entrenamiento en la página de reserva de horas con algunos detalles de tu experimento y tu experiencia en microscopía. Usualmente en 1 o 2 días, y luego podemos coordinar una visita para que hagas una prueba sin costo del equipamiento de acuerdo con la propuesta.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample05">
+                                <h4>¿Cuáles son las condiciones óptimas para trabajar con células vivas en el microscopio?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample05">
+                                <div class="uc-card_body">
+                                    <p>La adquisición de imágenes en célula viva requiere enfocarse tanto en el buen funcionamiento de las células durante el experimento, como aplicar los métodos experimentales apropiados para seguir el proceso celular de interés. Aquí indicamos las condiciones necesarias para mantener las células en estado nativo durante la adquisición de imágenes.</p>
+                                    <table class="uc-table">
+                                        <thead>
+                                        <tr>
+                                            <th style="width: 120px;">Parámetros</th>
+                                            <th>Rango óptimo</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td><strong>pH</strong></td>
+                                            <td>7.0-7.7</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Bufer</strong></td>
+                                            <td>Bicarbonato de sodio o bufers sintéticos biológicos</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Temperatura</strong></td>
+                                            <td>28-37 Celcius</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Osmolaridad</strong></td>
+                                            <td>260-320 mosM</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Atmósfera</strong></td>
+                                            <td>Aire o 5-7% CO2</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Humedad</strong></td>
+                                            <td>97-100%</td>
+                                        </tr>
+                                        <tr>
+                                            <td><strong>Oxigenación</strong></td>
+                                            <td>Variable</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>Los medios de cultivo deben estar formulados para mantener el crecimiento de las células sin compuestos que aumenten la fluorescencia background, evitando el uso de rojo fenol. Cambien pueden utilizarse medios salinos para mejorar la calidad óptica, pero estos no pueden usarse en estudios de larga duración que demanden alta actividad metabólica. El pH es crítico para el crecimiento eficiente de las células, por lo que debe mantenerse en el rango de 7 a 7.7.</p>
+                                    <p>ATMÓSFERA<br>
+                                        La adquisición de imágenes de células vivas en el microscopio usualmente requiere de cámaras de incubación, que permiten regular la atmósfera y temperatura durante el experimento. En general, una concentración de 10-20mM de bufer HEPES puede controlar el pH en ausencia de CO2, con bicarbonato de sodio para un crecimiento óptimo de las células.
+                                        Normalmente no es necesaria la regulación estricta de O2, en experimentos de célula viva. Muchas veces una atmósfera sin oxígeno es usada como estrategia para reducir el fotodaño de las muestras (por reacciones con especies reactivas de oxígeno). Sin embargo, en algunas líneas celulares puede causar estrés hipóxico. 
+                                    </p>
+                                    <p>OSMOLARIDAD<br>
+                                        Debido a que las cámaras para covers en estudio de célula viva son muy pequeñas, el medio está sujeto a cambios de osmolaridad por la evaporación cuando se usan altas temperaturas. Es importante chequear el volumen del medio y sustituirlo para compensar la evaporación. También se puede minimizar la evaporación usando cámaras selladas o con control de humedad. 
+                                    </p>
+                                    <p>Referencias<br>
+                                        <ol>
+                                            <li>REF (el link no funciona)</li>
+                                            <li>REF (el link no funciona)</li>
+                                            <li><a href="#" class="link-inline">https://bitesizebio.com/23725/live-cell-imaging-choosing-the-right-technique/</a></li>
+                                        </ol>                                       
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample06">
+                                <h4>¿Qué información técnica debo incluir en mi publicación?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample06">
+                                <div class="uc-card_body">
+                                    <p>Se debe incluir la siguiente información, que puede ser encontrada en las especificiaciones ténicas de nuestros equipos:</p>
+                                    <p>
+                                        <ul>
+                                            <li>Modelo y marca de microscopio.</li>
+                                            <li>Información del lente objetivo utilizado: magnificación, apertura numérica (NA) y corrección (ej. 60x 1.4 NA Plan-Apochromat).</li>
+                                            <li>Información del filtro de fluorescencia: marca y ancho de banda (ej. 490/30 nm).</li>
+                                            <li>Fuente de luz (Mercurio, tungsteno, o laser) incluir longitud de onda.</li>
+                                            <li>Marca y modelo de cámara.</li>
+                                            <li>Software de adquisición, nombre y versión.</li>
+                                            <li>Configuración de adquisición: tiempos de exposición, gain, binnning. También el valor de Z en stack (core óptico), toempo entre imágenes en timelapse.</li>
+                                        </ul>                                        
+                                    </p>
+                                    <p>También es recomendable incluir:</p>
+                                    <p>
+                                        <ul>
+                                            <li>Marca y modelo de hardware como ruedas de filtros, platinas motorizadas, shutters, etc.</li>
+                                            <li>Descripción del protocolo de procesamiento de imágenes utilizado para generar las figuras de la publicación.</li>
+                                            <li>Descripción del protocolo de cuantificación y análisis de imágenes y un método de validación.</li>
+                                        </ul>
+                                    </p>
+                                    <p>[Extracto de Waters, J.C. (2009). Accuracy and precision in quantitative fluorescence microscopy. The Journal of cell biology.]</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample07">
+                                <h4>¿Cuál es la forma correcta de editar mis imágenes?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample07">
+                                <div class="uc-card_body">
+                                    <p>Recuerde: “La mejor imagen es la que necesita un mínimo procesamiento”.</p>
+                                    <p>A continuación, se detalla una breve guía ética para el uso y manipulación apropiado de imágenes científicas digitales:</p>
+                                    <p>
+                                        <ul>
+                                            <li>Las imágenes digitales científicas son <b>datos</b> y se deben tratar como tales, pudiéndose ver comprometidos por manipulaciones inapropiadas.</li>
+                                            <li>La manipulación de imágenes digitales debe ser realizada solo en copias originales (¡Siempre guarde los datos originales a salvo y sin cambios!).</li>
+                                            <li>Ajustes sencillos de brillo y contraste son aceptables sise aplica a toda la imagen.</li>
+                                            <li>Recortar las imágenes es usualmente aceptable si no hay perdida de información.</li>
+                                            <li>Imágenes digitales que serán comparadas entre si deben ser adquiridas <b>bajo las mismas condiciones</b>, y cualquier procesamiento post-adquisición debe ser aplicado a ambas por igual.</li>
+                                            <li>Manipulaciones específicas en ciertas áreas de. Una imagen, no aplicadas a la imagen completa, son cuestionables.</li>
+                                            <li>Mediciones de intensidad deben ser realizadas en imágenes que han sido procesadas uniformemente, y los datos deben ser calibrados de acuerdo a un estándar conocido.</li>
+                                            <li>Evite el uso de imágenes comprimidas, prefiera el formato original o TIFF.</li>
+                                            <li>Tenga cuidado cuando cambie el tamaño de una imagen digital (en pixeles), esto afecta su resolución.</li>                                            
+                                        </ul>
+                                    </p>
+                                    <p>Finalmente, recuerde que la importancia de las imágenes científicas radica en los datos que contienen, y no en su efecto estético.</p>
+                                    <p>[Extracto de Cromey, D.W. (2010). Avoiding twisted pixels: ethical guidelines for the appropriate use and manipulation of scientific digital images. Science and engineering ethics.]</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample08">
+                                <h4>¿Cómo determino el tiempo de exposición de la cámara?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample08">
+                                <div class="uc-card_body">
+                                    <p>En la adquisición de imágenes de fluorescencia, el tiempo de exposición (Exposure en inglés), es el tiempo que la
+                                        cámara estará expuesta a la luz emitida por la muestra. A mayor tiempo de exposición más fotones llegarán a la
+                                        cámara, lo que resultará en una imagen más brillante.</p>
+                                    
+                                    <p>Una vez establecido el tiempo de exposición para un set de muestras a comparar, <b>este valor no debe ser
+                                            cambiado</b> (a menos que se tomen todas las imágenes nuevamente con el nuevo valor).</p>
+                                    
+                                    <p>El tiempo de expoisición se determina usando la muestra con la mayot señal esperada (la más brillante). Una vez
+                                        sekeccionada esta muestra, se selecciona el tiempo de exposición más largo que permita utilizar todo el rango
+                                        dinámico de la macámara, pero <b>sin saturar los pixeles</b>.</p>
+                                    
+                                    <p>Recuerde que tiempos de exposición excesivamente largos pueden dañar su muestra y blanquear la señal fluorescente
+                                        (photobleaching).</p>
+                                    
+                                    <p>[Extracto de exposure times by Thermo Fisher Scientific (2015), artículo disponible en <a href="#" class="link-inline">www.thermofisher.com</a>]</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample09">
+                                <h4>Exposure, Gain, Offset e Histograma, ¿Qué son estos parámetros y porque son tan importantes?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample09">
+                                <div class="uc-card_body">
+                                    <p>La exposición, ganancia (gain) y offset determinan la intensidad de señal y el nivel de ruido de una imagen digital,
+                                        y son los parámetros de configuración esenciales al momento de adquirir imágenes en microscopía de fluorescencia.
+                                    </p>
+                                    <p>El <b>tiempo de exposición</b> (Exposure en inglés), es el tiempo que la cámara estará expuesta a la luz
+                                        emitida por la muestra. A mayor tiempo de exposición, más fotones llegarán a la cámara, lo que resultará en una
+                                        imagen más brillante. Si la señal fluorescente es lo suficientemente brillante y la muestra tiene baja señal de
+                                        background, se adquirirán imágenes con buen contraste.</p>
+                                    <p>La <b>ganancia</b> (Gain en ingles) amplifica digitalmente la señal recibida por la cámara, por lo tanto
+                                        aumenta tanto la señal como el ruido percibido. Cuanto menor sea la ganancia aplicada, mejor será la relación
+                                        señal/ruido de nuestras imágenes.</p>
+                                    <p>El <b>offset</b> determina el valor de señal minimo detectado por la cámara, es decir, los valores bajo el
+                                        offset son considerados como pixeles negros (con intensidad cero). Mientras mayor sea el valor de offset, mas señal
+                                        será “cortada”.</p>
+                                    <p>El <b>histograma</b> es una representación grafica del uso del rango dinamico de la cámara, esto es,
+                                        del rango de niveles de brillo que puede captar la cámara. Lo ideal al adquirir una imagen digital es utilizar todo
+                                        el rango dinamico de la cámara, representado por un histograma que se distribuya uniformemente desde el minimo hasta
+                                        máximo valor.</p>
+                                    <p>Los parámetros de exposición, ganancia y offset deben ser configurados de una forma tal que no se pierda señal por
+                                        pixeles saturados, o por quedar bajo el valor de offset. A la vez, esta configuración debe utilizar todo el rango
+                                        dinámico disponible de la cámara.</p>
+                                    <p>Es importante que todas las imágenes de un set de muestras sean adquiridas con los mismo parámetros, sobre todo si
+                                        serán utilizadas posteriormente para comparaciones cualitativas o análisis cuantitativos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample10">
+                                <h4>¿Cómo puedo abrir mis imágenes?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample10">
+                                <div class="uc-card_body">
+                                    <p>Las imágenes adquiridas con el software <b>Zen Black</b> (microscopios Zeiss) se pueden abrir en el
+                                        programa gratuito <b>Zen Lite</b>. Las imágenes adquiridas con el software <b>NIS-Elements</b>
+                                        (microscopios Nikon) pueden ser visualizadas en el software libre <b>NIS-Elements Viewer</b>.</p>
+                                    <p>Ambos formatos son compatibles con el software <b>FIJI</b>, también de libre acceso.</p>
+                                    <p>Los links de descarga de los programas ya nombrados son, respectivamente, los siguientes:</p>
+                                    <p>
+                                        <ul>
+                                            <li><a href="https://www.zeiss.com/microscopy/int/products/microscope-software/zen-lite.html" target="_blank"
+                                                    rel="noopener" class="link-inline">Link de descarga Zen Lite</a></li>
+                                            <li><a href="https://www.microscope.healthcare.nikon.com/es_AMS/products/software/nis-elements/viewer"
+                                                    target="_blank" rel="noopener" class="link-inline">Link de descarga NIS-Elements Viewer</a></li>
+                                            <li><a href="https://imagej.net/Fiji/Downloads" target="_blank" rel="noopener" class="link-inline">Link de descarga
+                                                    FIJI</a></li>
+                                        </ul>
+                                    </p>
+                                    <p>Por otro lado, las imágenes adquiridas con el software <b>FV10-ASW</b> (Microscopios Olympus) pueden ser
+                                        abiertas también mediante <b>FIJI</b>.</p>
+                                    <p>Más información respecto a los formatos aceptados por <b>FIJI</b> se puede encontrar en el siguiente
+                                        link:<br>
+                                        <a href="https://imagej.net/Bio-Formats" class="link-inline">formats supported by FIJI</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample11">
+                                <h4>¿Con que programa(s) puedo procesar mis imágenes?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample11">
+                                <div class="uc-card_body">
+                                    <p>Existen diversos programas para el análisis y procesamiento de imágenes, uno de ellos es <b>FIJI</b>. Este
+                                        software de libre acceso es un paquete completo de <b>Image J</b> que permite realizar distintas
+                                        operaciones, tales como: segmentar, cuantificar, deconvolucionar, entre otras funciones.</p>
+                                    <p>Alternativamente, existe una compilación del programa <b>Image J</b> denominado <b>Confocal Uniovi
+                                            ImageJ</b>, el cual facilita el procesamiento de imágenes confocales. Gracias a su interfaz gráfica, el
+                                        software <b>Confocal Uniovi ImageJ</b> permite procesar imágenes tan sólo con hacer clic en un botón, pues
+                                        esta interfaz agrupa las principales funciones para el procesamiento de imágenes confocales y las representa con
+                                        botones. Este software de libre acceso puede ser descargado en la siguiente página:<br />
+                                        <a href="http://spi03.sct.uniovi.es/confocaluniovi/confocaluniovi.htm" target="_blank" rel="noopener"  class="link-inline">Página para descargar ConfocalUniovi Image J</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>             
+            </div>
+            <div class="d-flex align-items-center my-32" id="ubbc">
+                <h2>Bioinformática y Biología Computacional</h2>
+                <span class="uc-heading-decoration"></span>
+            </div> 
+            <div class="row">
+                <div class="col-lg-7 offset-lg-1 content">
+                    <div class="uc-accordion" data-accordion>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample01">
+                                <h4>¿Pregunta 1?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample01">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample02">
+                                <h4>¿Pregunta 2?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample02">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample03">
+                                <h4>¿Pregunta 3?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample03">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uc-collapse uc-card">
+                            <a href="#" class="uc-collapse_heading" data-collapse="collapseExample04">
+                                <h4>¿Pregunta 4?</h4>
+                                <span class="uc-btn btn-inline ml-auto">
+                                    Ver más <i class="uc-icon icon-shape--rounded">keyboard_arrow_down</i>
+                                </span>
+                            </a>
+                            <div class="uc-collapse_body" data-toggle="collapseExample04">
+                                <div class="uc-card_body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aspernatur at consectetur eius eos fuga hic, maiores maxime modi mollitia obcaecati perspiciatis quam quas quis repellendus tenetur vitae voluptas?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>             
+            </div>            
+            <div class="container my-60"></div>
+        </div>
+        <%- include("partials/footer.html") %>
+</body>
+
+</html>
