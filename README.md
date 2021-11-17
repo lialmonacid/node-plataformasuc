@@ -5,7 +5,7 @@ Esqueleto de la página web de las plataformas UC, programado en el framework [N
 
 Para iniciar el servicio web, deben instalarse los siguientes módulos y software. Se recomienda utilizar el administrador de paquetes `conda` porque es más fácil instalar los módulos.
 
-* Node JS. Además, otros módulos de `Node` son requeridos (ver Instalación). Instalación con conda:
+* Node JS. Además, otros módulos de `Node` son requeridos (ver siguiente sección). Instalación con conda:
     ```
     conda create -n nodejs_env nodejs
     conda activate nodejs_env
