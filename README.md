@@ -1,7 +1,7 @@
 # node-plataformasuc
 Página web de las Plataformas UC
 
-Esqueleto de la página web de las plataformas UC, programado en el framework NodeJS.
+Esqueleto de la página web de las plataformas UC, programado en el framework [NodeJS](https://nodejs.org).
 
 ## Software requirements ##
 
